@@ -1,0 +1,82 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+.flight-listing {
+    max-width: 600px;
+    margin: 20px auto;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    cursor: pointer;
+    transition: transform 0.2s ease;
+    .pointer {cursor: pointer;}
+
+}
+
+.flight-listing:hover {
+    transform: translateY(-5px);
+}
+
+.date-selector {
+    display: flex;
+    justify-content: space-around;
+    background-color: #e9e9e9;
+    padding: 10px;
+}
+
+.date-selector .date, .date-selector .price {
+    text-align: center;
+}
+
+.flight {
+    display: flex;
+    border-bottom: 1px solid #e9e9e9;
+    padding: 15px;
+}
+
+.flight:last-child {
+    border-bottom: none;
+}
+
+.airline-logo img {
+    max-width: 40px;
+}
+
+.flight-info {
+    flex-grow: 1;
+    padding-left: 15px;
+}
+
+.flight-info .flight-number {
+    font-weight: bold;
+}
+
+.flight-info .times {
+    display: flex;
+    justify-content: space-between;
+    margin: 5px 0;
+}
+
+.flight-info .time {
+    font-size: 1.2em;
+}
+
+.flight-info .duration {
+    font-size: 0.9em;
+    color: #888;
+}
+
+.price {
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+.extra {
+    font-size: 0.9em;
+    color: #ff5722;
+}

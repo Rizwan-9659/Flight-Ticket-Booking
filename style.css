@@ -1,0 +1,176 @@
+*{ 
+	margin: 0;
+	   padding: 0;
+	   box-sizing: none;
+	   font-family: "poppins", sans-serif;
+   }
+   body {
+	   display:flex;
+	   justify-content: center;
+	   align-items: center;
+	   min-height: 100vh;
+	   background: url("flight5.gif") no-repeat ;    width: 100%;
+	   background-color: #cccccc;
+	   background-size: 2000px 800px;
+	   height: 10px;
+	   margin: 15px 0;
+   }
+	 
+	 .input2 input
+	 {
+		 width: 100%;
+		 height: 100%;
+		 background: transparent;
+		 border: none;
+		 outline: none;
+		 border: 2px solid rgba(255, 255, 255, .2);
+		 border-radius: 40px;
+		 font-size: 16px;
+		 color: #fff;
+		 padding: 20px 45px 20px 20px;
+	 }
+   
+	 
+	 .sign2.input2
+   {
+   
+	 .input2 input::placeholder{
+		 color: #da0f0f;
+	 }
+	 
+	 .input2 i{
+		 position: absolute;
+		 right: 20px;
+		 top: 50%;
+		 transform: translateY(-50%);
+		 font-size: 20px;
+	 }
+	 
+	 
+		 background-size: cover;
+		 background-position: center;
+   }
+   .sign2
+   {
+	   width: 420px;
+	   background: transparent;
+	   border: 2px rgba(255, 255, 255, .2);
+	   backdrop-filter: blur(20px);
+	   box-shadow: 0 0 10px rgb(0, 0, 0, .2);
+	   color: #fff;
+	   border-radius: 10px;
+	   padding: 30px 40px;
+   
+   }
+   
+   .sign2 h1{
+	   font-size: 36px;
+	   text-align: center;
+   
+   }
+   .sign2 .input2
+   {
+	   width: 100%;
+	   height: 50px;
+	   margin: 30px 0;
+   }
+   
+   .input2 input
+   {
+	   width: 100%;
+	   height: 100%;
+	   background: transparent;
+	   border: none;
+	   outline: none;
+	   border: 2px solid rgba(255, 255, 255, .2);
+	   border-radius: 40px;
+	   font-size: 16px;
+	   color: hotpink;
+	   padding: 20px 45px 20px 20px;
+   }
+   
+   .input2 input::placeholder{
+	   color: #e6dbdb;
+   }
+   
+   .input2 i{
+	   right: 20px;
+	   top: 50%;
+	   transform: translate(-50%);
+	   font-size: 20px;
+   }
+   
+   .sign2 .remember2
+   {
+	   display: flex;
+	   justify-content: space-between;
+	   font-size: 14.5px;
+	   margin: -15px 0 15px;
+   
+   
+   }
+   
+   .remember2 label input {
+   accent-color: #fff;
+   margin-right: 3px;
+   
+   }
+   
+   .remember2 a {
+	   color: #fff;
+	   text-decoration: none;
+   
+   }
+   
+   
+   .remember2 a:hover {
+	   text-decoration: underline;
+   
+   }
+   .sign2 .btn {
+	   width: 100%;
+	   height: 45px;
+	   background: #fff;
+	   border: none;
+	   outline:none;
+	   border-radius: 40px;
+	   box-shadow: 0 0 10px rgb(0, 0, 0, 1);
+	   cursor: pointer;
+	   font-size: 16px;
+	   color: #333;
+	   font-weight: 600;
+	
+   
+   }
+   
+   .sign2  .reg2 {
+	   font: size 14.5px; 
+	   text-align: center;
+	   margin: 20px 0 15px;
+   }
+   
+   .reg2 p a {
+	   color: #fff;
+	   text-decoration: none;
+	   font-weight: 600;
+   
+   }
+   
+   .reg2 p a:hover {
+	   text-decoration: underline;
+	   background-color: #da0f0f;
+   
+   }
+   .Remember a:hover {
+	   background-color: #da0f0f;
+   
+   }
+	   .btn {
+		   background-color: #da0f0f;
+		   color: white;
+	   }
+	   .btn:hover{
+		   background-color: red;
+		   color: white;
+   
+	   }

@@ -1,0 +1,102 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.flight-info {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 500px;
+    width: 100%;
+}
+
+.header {
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+
+.header h1 {
+    margin: 0;
+    font-size: 24px;
+}
+
+.header p {
+    margin: 5px 0;
+    color: #555;
+}
+
+.flight-details {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.flight img {
+    width: 40px;
+    height: auto;
+    margin-right: 10px;
+}
+
+.flight span {
+    font-size: 18px;
+}
+
+.flight-time {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+}
+
+.time {
+    text-align: center;
+}
+
+.time p {
+    margin: 5px 0;
+    font-size: 20px;
+}
+
+.time span {
+    display: block;
+    color: #555;
+}
+
+.duration {
+    font-size: 18px;
+    color: #555;
+}
+
+.baggage {
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    padding: 10px 0;
+    margin: 10px 0;
+}
+
+.baggage p {
+    margin: 5px 0;
+    font-size: 16px;
+}
+
+.footer {
+    text-align: center;
+    color: #555;
+}
+
+.footer p {
+    margin: 5px 0;
+    font-size: 14px;
+}

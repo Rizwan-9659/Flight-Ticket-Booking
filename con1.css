@@ -1,0 +1,18 @@
+*{ 
+    margin: 0px;
+    padding: px;
+    box-sizing: border-box;
+    font-family: "poppins", sans-serif;
+   }
+   .contact1
+   {
+    min-height: 1000vh;
+    background-color: #e8f0fe;
+    padding: 100px;
+    text-align: center;
+   }
+   .con2
+   {
+    padding: 100px;
+
+   }
